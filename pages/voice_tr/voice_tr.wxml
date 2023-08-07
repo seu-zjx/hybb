@@ -1,0 +1,9 @@
+<view class="images">
+<image src="../../images/6.jpg" mode="aspectFit" bindtap="clickImage1" class="img1"></image>
+<!-- <image src="../../images/2.jpg" mode="aspectFit" bindtap="clickImage2" class="img1"></image>
+<image src="../../images/3.jpg" mode="aspectFit" bindtap="clickImage3" class="img1"></image>
+<image src="../../images/4.jpg" mode="aspectFit" bindtap="clickImage4" class="img1"></image> -->
+</view>
+<view class="content-below" bindtap="saveCanvas">
+      <text>确认保存</text>
+        </view>

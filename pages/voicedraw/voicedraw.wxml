@@ -1,20 +1,33 @@
 <!--pages/voicedraw/voicedraw.wxml-->
+
+
+  <!-- <button bindtouchstart="streamRecord" bindtouchend="streamRecordEnd" class="speakbutton">按住说话</button> -->
 <view class="form-input">
   <text class="num_length">以下框内是语音识别结果</text>
+
+
+  <form bindsubmit="formSubmit">
+  <!-- 记得设置name值，这样JS才能接收name=keyword的值 -->
+    <!-- <input type="text" name="keyword" class="search_input" placeholder='你要找什么呢' confirm-type="done" bindconfirm="getdetailinfo" value="{{currentText}}" bindblur="getdetailinfo"/> -->
+    <!-- <button formType="submit" class="search_btn">搜索</button>     -->
+  </form>
+
+  
         <view class="input-item">
-          <textarea class="input-val" placeholder="等待文字识别" maxlength="100" bindinput="inputContent" value="{{content}}" />
+          <textarea class="input-val" type="text" name="keyword" placeholder='你要找什么呢' confirm-type="done" bindconfirm="getdetailinfo" value="{{currentText}}" bindblur="getdetailinfo" />
         </view>
         <!-- <text class="num_length">{{now_length}}/？</text> -->
         <view class="content-below" bindtap="submit">
       <text>确认转换</text>
         </view>
-        <view class="padding bg-white">
+        <!-- <view class="padding bg-white">
 <view class="cu-progress round">
   <view class="bg-green" style="width:{{loading?'61.8%':''}};">61.8%</view>
 </view>
-</view>
-<button class="mini-btn" size="mini" bindtap="get_voice">
+</view> -->
+<!-- <button class="mini-btn" size="mini" bindtouchstart="streamRecord" bindtransitionend="streamRecordEnd">
         <image src="../../images/get_voice.png" class="img"></image>
-    </button>
+    </button> -->
+    <button bindtouchstart="streamRecord" bindtouchend="streamRecordEnd"><image src="../../images/get_voice.png" class="img"></image></button>
 </view>
 

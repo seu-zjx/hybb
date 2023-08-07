@@ -286,7 +286,7 @@ Page({
   },
   transform(){
     wx.navigateTo({
-      url: '../my_photos/my_photos',
+      url: '../transform/transform',
     })
   }
 
