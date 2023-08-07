@@ -1,14 +1,22 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/guide/guide",
+    "pages/voicedraw/voicedraw",
+    "pages/draw/draw",
+    "pages/see_saying/see_saying",
+    "pages/see_saying2/see_saying2",
+    "pages/my_photos/my_photos",
+    "pages/transform/transform"
   ],
   "window": {
     "backgroundColor": "#000000",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "宝宝日记",
+    "navigationBarTitleText": "AI日记画本",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
 }

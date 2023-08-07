@@ -1,0 +1,20 @@
+<!--pages/guide/guide.wxml-->
+  <view class="img"> 
+    <image src='../../images/voice_drawing.png' mode="aspectFit"></image>
+  </view>
+  <button class="cu-btn round lg" style="margin-left:140px;margin-top: 30px;" bindtap="tap1">语音绘画</button>
+
+  <view class="img"> 
+    <image src='../../images/draw.png' mode="aspectFit"></image>
+  </view>
+  <button class="cu-btn round lg" style="margin-left:140px;margin-top: 30px;" bindtap="tap2">几笔成画</button>
+
+  <view class="img"> 
+    <image src='../../images/see_saying.png' mode="aspectFit" ></image>
+  </view>
+  <button class="cu-btn round lg" style="margin-left:140px;margin-top: 30px;" bindtap="tap3">看图说话</button>
+
+  <view class="img"> 
+    <image src='../../images/draw_library_.png' mode="aspectFit" ></image>
+  </view>
+  <button class="cu-btn round lg" style="margin-left:140px;margin-top: 30px;" bindtap="tap4">我的画册</button>

@@ -1,0 +1,7 @@
+<!--pages/my_photos/my_photos.wxml-->
+<view class="images">
+<image src="../../images/2.jpg" mode="aspectFit" bindtap="clickImage1" class="img1"></image>
+<!-- <image src="../../images/2.jpg" mode="aspectFit" bindtap="clickImage2" class="img1"></image>
+<image src="../../images/3.jpg" mode="aspectFit" bindtap="clickImage3" class="img1"></image>
+<image src="../../images/4.jpg" mode="aspectFit" bindtap="clickImage4" class="img1"></image> -->
+</view>

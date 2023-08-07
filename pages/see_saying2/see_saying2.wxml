@@ -1,0 +1,15 @@
+<!--pages/see_saying2/see_saying2.wxml-->
+<view class="images">
+<image src="../../images/1.jpg" mode="aspectFit" bindtap="clickImage1" class="img1"></image>
+<!-- <image src="../../images/2.jpg" mode="aspectFit" bindtap="clickImage2" class="img1"></image>
+<image src="../../images/3.jpg" mode="aspectFit" bindtap="clickImage3" class="img1"></image>
+<image src="../../images/4.jpg" mode="aspectFit" bindtap="clickImage4" class="img1"></image> -->
+</view>
+<view class="form-input">
+        <view class="input-item">
+          <textarea class="input-val"  bindinput="inputContent" placeholder="或许，闲与静，都是生命的恩赐，那么，沉静与收敛，也是一种欢喜，妥贴了慈悲，那么，一段旧光阴，一个旧人，也会空欢喜，有心足矣了。" value="{{content}}" />
+        </view>
+        <view class="padding bg-white">
+</view>
+</view>
+

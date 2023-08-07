@@ -1,0 +1,6 @@
+/* pages/see_saying/see_saying.wxss */
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

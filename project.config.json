@@ -53,5 +53,6 @@
     "tabSize": 2
   },
   "compileType": "miniprogram",
-  "condition": {}
+  "condition": {},
+  "simulatorPluginLibVersion": {}
 }

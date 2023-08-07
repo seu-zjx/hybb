@@ -1,0 +1,6 @@
+/* pages/my_photos/my_photos.wxss */
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
